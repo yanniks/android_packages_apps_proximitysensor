@@ -543,7 +543,7 @@ public class PSCalibrator extends Activity implements SensorEventListener
   public void onSensorChanged(SensorEvent event)
   {
     float val = event.values[0]; 
-    String pval =  val == 0.0 ? "NEAR" : val > 0 ?  "FAR" : "UKNOWN";
+    String pval =  val == 0.0 ? getString(R.string.near) : val > 0 ?  getString(R.string.far) : getString(R.string.unknown);
     setPSStatus(pval);
     
     UpdateCalibrationValues();
