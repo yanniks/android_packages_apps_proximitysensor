@@ -372,7 +372,7 @@ public class PSCalibrator extends Activity implements SensorEventListener
         if (running)
         {
           sensormanager.unregisterListener(psevent);
-          setPSStatus("Not running");
+          setPSStatus(getString(R.string.prox_value));
           applybut.setText(getString(R.string.apply));
           UpdateCalibrationValues();
         }
