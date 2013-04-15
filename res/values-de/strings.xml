@@ -3,7 +3,7 @@
     <string name="app_name">Annäherungs-Rekalibrator</string>
     <string name="lt_value">0</string>
     <string name="ht_value">255</string>
-    <string name="apply">Start</string>
+    <string name="apply">Testen</string>
     <string name="runatboot">Beim hochfahren aktivieren</string>
     <string name="prox_value">Läuft nicht</string>
     <string name="far">Entfernt</string>
@@ -12,6 +12,7 @@
     <string name="errorps_cadc">Fehler beim Schreiben nach ps_kadc</string>
     <string name="lt_label">Geringer Grenzwert</string>
     <string name="ht_label">Hoher Grenzwert</string>
+    <string name="kernelnotsupported">Kernel wird nicht unterstützt!</string>
     <string name="ork">Annäherungssensor-Monitor:</string>
     <string name="title">Annäherungs-Rekalibrator von yanniks und leppie</string>
     <string name="empty"> </string>

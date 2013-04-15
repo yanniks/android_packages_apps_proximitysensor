@@ -314,8 +314,8 @@ public class PSCalibrator extends Activity implements SensorEventListener
     if (running)
     {
       sensormanager.unregisterListener(psevent);
-      setPSStatus("Not running");
-      ((Button) findViewById(R.id.applyBut)).setText("Start");
+      setPSStatus(getString(R.string.prox_value));
+      ((Button) findViewById(R.id.applyBut)).setText(getString(R.string.apply));
       UpdateCalibrationValues();
       running = false;
     }
@@ -334,7 +334,7 @@ public class PSCalibrator extends Activity implements SensorEventListener
     if (!Calibration.Initialize(errors))
     {
       AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-      alertDialog.setTitle("Kernel not supported");
+      alertDialog.setTitle(getString(R.string.kernelnotsupported));
       StringBuilder sb = new StringBuilder();
       for (String er : errors)
       {
@@ -373,7 +373,7 @@ public class PSCalibrator extends Activity implements SensorEventListener
         {
           sensormanager.unregisterListener(psevent);
           setPSStatus("Not running");
-          applybut.setText("Start");
+          applybut.setText(getString(R.string.apply));
           UpdateCalibrationValues();
         }
         else

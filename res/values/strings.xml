@@ -12,6 +12,7 @@
     <string name="far">FAR</string>
     <string name="errorps_cadc">Error when writing to ps_kadc</string>
     <string name="near">NEAR</string>
+    <string name="kernelnotsupported">Kernel not supported!</string>
     <string name="unknown">UNKNOWN</string>
     <string name="title">DHD Proximity Sensor Recalibrator by leppie</string>
     <string name="empty"> </string>
