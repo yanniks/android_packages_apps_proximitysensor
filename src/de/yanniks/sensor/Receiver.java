@@ -1,4 +1,4 @@
-package com.leppie.dhd;
+package de.yanniks.sensor;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
