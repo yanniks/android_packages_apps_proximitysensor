@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="de.yanniks.sensor" android:versionCode="1" android:versionName="1.0" android:installLocation="internalOnly">
-    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="17" />
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 	<application android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true" >
 		<activity android:name="de.yanniks.sensor.PSCalibrator" android:label="@string/app_name">
