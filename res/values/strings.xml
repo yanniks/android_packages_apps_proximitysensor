@@ -4,7 +4,6 @@
     <string name="lt_value" translatable="false">0</string>
     <string name="ht_value" translatable="false">255</string>
     <string name="apply">Start</string>
-    <string name="runatboot">Apply at Boot</string>
     <string name="prox_value">Not running</string>
     <string name="lt_label">Low Threshold</string>
     <string name="ht_label">High Threshold</string>
@@ -14,6 +13,6 @@
     <string name="near">NEAR</string>
     <string name="kernelnotsupported">Kernel not supported!</string>
     <string name="unknown">UNKNOWN</string>
-    <string name="title">DHD Proximity Sensor Recalibrator by leppie</string>
+    <string name="title">Proximity Sensor Recalibrator by leppie</string>
     <string name="empty"> </string>
 </resources>
