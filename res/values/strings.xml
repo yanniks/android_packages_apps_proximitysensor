@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Proximity Recalibrator</string>
-    <string name="lt_value">0</string>
-    <string name="ht_value">255</string>
+    <string name="lt_value" translatable="false">0</string>
+    <string name="ht_value" translatable="false">255</string>
     <string name="apply">Start</string>
     <string name="runatboot">Apply at Boot</string>
     <string name="prox_value">Not running</string>
