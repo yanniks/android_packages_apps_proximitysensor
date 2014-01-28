@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Proximity Recalibrator</string>
-    <string name="apply">Inizio</string>
-    <string name="prox_value">Non in funzione</string>
+    <string name="app_name">Calibrazione di Prossimità</string>
+    <string name="apply">Avvia</string>
+    <string name="prox_value">Spento</string>
     <string name="lt_label">Soglia bassa</string>
     <string name="ht_label">Soglia alta</string>
     <string name="ork">Sensore prossimità schermo</string>
-    <string name="title">Proximity Sensor Recalibrator di leppie\nUI modernizzazione da Mustaavalkosta</string>
+    <string name="title">Sensore Calibrazione Prossimità di leppie\nUI modernizzazione da Mustaavalkosta</string>
 </resources>
