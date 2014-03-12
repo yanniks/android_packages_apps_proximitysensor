@@ -15,5 +15,4 @@
     <string name="unknown">UNKNOWN</string>
     <string name="title">Proximity Sensor Recalibrator by leppie</string>
     <string name="empty"> </string>
-    <string name="recalibrated">Proximity sensor recalibrated:</string>
 </resources>

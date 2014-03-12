@@ -91,7 +91,7 @@ class Calibration {
   
     private static void applyAndNotify(Context ctx, int lt, int ht) {
         apply(lt, ht);
-        Toast.makeText(ctx, getString(R.string.recalibrated) + " LT=" + lt + " HT=" + ht, Toast.LENGTH_LONG).show();
+        Toast.makeText(ctx, "Proximity sensor recalibrated: LT=" + lt + " HT=" + ht, Toast.LENGTH_LONG).show();
     }
 
     public static void applySaved(Context ctx) {
