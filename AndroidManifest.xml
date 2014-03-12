@@ -7,7 +7,6 @@
 		<activity android:name="de.yanniks.sensor.PSCalibrator" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" android:label="@string/app_name">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
 		<receiver android:name="de.yanniks.sensor.Receiver">
